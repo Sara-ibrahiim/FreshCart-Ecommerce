@@ -44,7 +44,7 @@ function saveUserData() {
     }
   }, [])
   
-  let routers = createBrowserRouter([
+  let routers = createHashRouter([
     {path:'', element:<Layout clearUserData={clearUserData} setuserData={setuserData} userData={userData}/>, children:[
       {index:true, element:<ProtectedECommerce><Home /></ProtectedECommerce>},
       {path:'brands', element:<ProtectedECommerce><Brands /></ProtectedECommerce>},
