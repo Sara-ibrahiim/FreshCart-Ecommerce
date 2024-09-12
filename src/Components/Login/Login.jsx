@@ -51,7 +51,7 @@ export default function Login({ saveUserData }) {
       <Helmet>
         <title>Login</title>
       </Helmet>
-      <div className="w-50 mx-auto mt-2 p-4 bg-main-light rounded-4 ">
+      <div className="col-md-5 mx-auto mt-2 p-4 bg-main-light rounded-4 ">
         <h4 className="mb-4 text-main">
           Login Now <i className="fa-solid fa-arrow-right-to-bracket"></i>
         </h4>

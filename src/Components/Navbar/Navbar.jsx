@@ -13,11 +13,11 @@ export default function Navbar({ userData, clearUserData }) {
   }
   return (
     <>
-      <nav className="navbar navbar-expand-sm navbar-light bg-light">
+      <nav className="navbar navbar-expand-sm navbar-light bg-light ">
         <div className="container">
-          <a className="navbar-brand" to="/">
+          <Link className="navbar-brand cursor-pointer" to="/">
             <img src={logo} alt="" />
-          </a>
+          </Link>
           <button
             className="navbar-toggler d-lg-none"
             type="button"
@@ -94,7 +94,7 @@ export default function Navbar({ userData, clearUserData }) {
                   <li className="nav-item mx-2 pt-2 position-relative">
                     <Link to="wishlist" className="nav-link position-relative">
                       <i className=" text-secondary fa-regular fa-heart fa-xl fw-light mt-3"></i>
-                      <span className="  text-main  badge position-absolute  top-0 bottom-5 wish-badge end-0  mb-2 ms-5 bg-main text-white">
+                      <span className="  text-main WISH badge position-absolute  top-0 bottom-5 wish-badge end-0  mb-2 ms-5 bg-main text-white">
                         {wishListNumber}
                       </span>
                     </Link>

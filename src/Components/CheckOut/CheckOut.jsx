@@ -63,7 +63,7 @@ export default function CheckOut() {
 CheackOut
 </Helmet>
 
-   <div className='w-50 py-50 mx-auto p-4 bg-main-light rounded-4'>
+   <div className='col-md-6 py-50 mx-auto p-4 bg-main-light rounded-4 '>
     <form onSubmit={formik.handleSubmit}>
       <label htmlFor="details">Details:</label>
       <input type="text" className='form-control mb-3' value={formik.values.details} onChange={formik.handleChange} name="details" id="details" />

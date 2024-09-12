@@ -18,15 +18,15 @@ export default function MainSlider() {
   return (
     <>
       <div className="row">
-        <div className="col-md-7">
+        <div className="col-lg-7 my-2 col-sm-12">
           <div className=" position-relative ">
             <img src={img1} className="w-100 rounded-2 " />
             <div className="position-absolute top-0 start-0 ">
-              <h4 className="ms-3 fw-bolder mt-5 text-white">
+              <h4 className="ms-3 fw-bolder mt-5 text-white col-md-12">
                 Best Online <br /> Deals, Free Stuff
               </h4>
-              <button className="btn-danger btn ms-3 mt-1">
-                <Link to={"/products"} className="text-white fw-bold">
+              <button className="btn-danger btn ms-3 mt-1 btn-home">
+                <Link to={"/products"} className="text-white btn-inner fw-bold">
                   {" "}
                   Shop Now
                 </Link>
@@ -34,10 +34,10 @@ export default function MainSlider() {
             </div>
           </div>
         </div>
-        <div className="col-md-5 text-c">
+        <div className="col-lg-5 col-sm-12 my-2 text-c">
           <Slider {...settings} className="">
             <div className="">
-              <div className="k position-relative">
+              <div className=" position-relative">
                 <img
                   src={slide2}
                   height={190}

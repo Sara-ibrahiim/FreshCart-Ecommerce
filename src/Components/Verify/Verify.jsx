@@ -55,7 +55,7 @@ let formik = useFormik({
   <Helmet>
         <title>Verify</title>
       </Helmet>
-     <div className='w-50 mx-auto mt-5  p-4 bg-main-light rounded-4'>
+     <div className='col-md-5 mx-auto mt-5  p-4 bg-main-light rounded-4'>
 
 
       <h4 className='mb-3 text-main'>Verify <i className="fa-regular fa-keyboard"></i></h4> 

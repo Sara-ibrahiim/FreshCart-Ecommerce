@@ -75,7 +75,7 @@ let formik = useFormik({
   <Helmet>
         <title>Register</title>
       </Helmet>
-     <div className='w-50 mx-auto p-4 bg-main-light rounded-4'>
+     <div className='col-md-5 mx-auto p-4 bg-main-light rounded-4'>
 
 
       <h4 className='mb-4 text-main'>Register Now <i className="fa-regular fa-address-card"></i></h4>

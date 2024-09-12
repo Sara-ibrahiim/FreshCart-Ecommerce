@@ -94,7 +94,7 @@ export default function WishList() {
                          <div className="" >
                            {dataWishList.map((data)=> (
      
-                             <div key={data?._id} className='w-100 bg-main-light my-3 rounded-2'>
+                             <div key={data?._id} className='w-100 bg-main-light my-3 pe-2 rounded-2'>
                                <div className='d-flex'>
      
                                  <div className='col-md-3'>

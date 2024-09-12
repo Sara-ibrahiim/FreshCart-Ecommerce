@@ -55,7 +55,7 @@ let formik = useFormik({
     <Helmet>
         <title>Reset</title>
       </Helmet>
-     <div className='w-50 mx-auto  p-4 bg-main-light rounded-4'>
+     <div className='col-md-5 mx-auto  p-4 bg-main-light rounded-4'>
 
 
       <h4 className='mb-4 text-main'>Reset New Password <i className="fa-solid fa-gears"></i></h4> 

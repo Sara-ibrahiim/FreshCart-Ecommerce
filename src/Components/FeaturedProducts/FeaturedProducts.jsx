@@ -63,7 +63,7 @@ async function addProduct(productId) {
 
   {products.length> 0 ? 
   
-  <div className='row my-5'>
+  <div className=' row mt-5'>
   {products.map((product)=> <div key={product._id} className='col-md-2'>
     <div className='product px-2 pb-3 cursor-pointer'>
     <div className='d-inline float-end wish-icon mt-1'>

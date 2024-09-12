@@ -130,3 +130,62 @@ background-color: #0aad0a !important;
 .dark-blue{
     color: #001e2b !important;
 }
+
+
+@media screen and (max-width:600px){
+
+.category-name{
+    font-size: 5.5px !important;
+}
+.category-img{
+    height: 80px !important;
+}
+.btn-home{
+ 
+    transform: translateY(-105px) !important;
+   
+   
+}
+.WISH.badge{
+    margin-top: -4px !important;
+
+}
+.badge{
+     
+    transform: translateX(-420px) !important;
+}
+
+  }@media screen and (min-width:610px) and (max-width:768px){
+    
+.category-name{
+    font-size: 10px !important;
+}
+.category-img{
+    height: 100px !important;
+}
+.btn-home{
+ 
+    transform: translateY(-105px) !important;
+
+   
+}
+
+.navbar{
+    width: 60% !important;
+    font-size: 14px !important;
+    background-color: #F8F9FA !important;
+}
+.navbar-expand-sm .navbar-collapse{
+    background-color: #F8F9FA !important;
+    
+}
+
+  }@media screen and (min-width:769px) and (max-width:992px){
+    .category-name{
+        font-size: 12px !important;
+    }
+    .category-img{
+        height: 115px !important;
+    }
+
+  } 

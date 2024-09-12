@@ -73,17 +73,17 @@ useEffect(()=>{
             </div>
             <div className="col-md-11 d-flex justify-content-between">
               <div>
-                <h6>{product?.product?.title}</h6>
+                <h6 className='pt-2'>{product?.product?.title}</h6>
                 <h6 className='text-main'>price : {product.price} EGP</h6>
                 <button onClick={()=> deleteItem(product.product._id)} className='btn m-0 p-0'> 
                   <i className='fa-regular text-danger fa-trash-can'></i> Remove</button>
               </div>
-              <div>
+              <div className='pt-2'>
                 <button onClick={()=> updateCart(product.product._id, product.count+1)} 
-                 className='btn btn-sm border-main'>+</button>
+                 className='btn btn-sm border-main my-1'>+</button>
                 <span className='mx-2'>{product?.count}</span>
                 <button onClick={()=> updateCart(product.product._id, product.count-1)} 
-                 className='btn btn-sm border-danger'>-</button>
+                 className='btn btn-sm border-danger my-1'>-</button>
               </div>
 
             </div>

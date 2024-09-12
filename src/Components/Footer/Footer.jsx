@@ -11,11 +11,11 @@ export default function Footer() {
             <p> we will send you a link, open it on your phone to download the app.</p>
     
        
-        <div className="col-md-10">
+        <div className="col-md-10 my-1">
             <input type="text" className="form-control" name="" id="" placeholder="Email.."/>
     
         </div>
-        <div className="col-md-2">
+        <div className="col-md-2 my-1">
             <button className="btn bg-main text-white">share app link</button>
         </div>
         <hr className="my-2"/>
